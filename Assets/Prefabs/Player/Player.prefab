@@ -127,7 +127,6 @@ GameObject:
   - component: {fileID: 3802512243787467969}
   - component: {fileID: 246263290761151332}
   - component: {fileID: 2634060843357665198}
-  - component: {fileID: 129250653}
   m_Layer: 6
   m_Name: Ship
   m_TagString: GameController
@@ -200,22 +199,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!58 &129250653
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4579857431587640955}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.25}
-  serializedVersion: 2
-  m_Radius: 0.25
 --- !u!1 &7849277997838642615
 GameObject:
   m_ObjectHideFlags: 0
@@ -267,13 +250,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"v2_Min_Max_Speed","value":{"x":1.0,"y":4.0,"$type":"UnityEngine.Vector2"},"typeHandle":{"Identification":"UnityEngine.Vector2,
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"v2_Min_Max_Speed","value":{"x":2.0,"y":4.0,"$type":"UnityEngine.Vector2"},"typeHandle":{"Identification":"UnityEngine.Vector2,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"v2_Min_Max_Force","value":{"x":400.0,"y":600.0,"$type":"UnityEngine.Vector2"},"typeHandle":{"Identification":"UnityEngine.Vector2,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"v2_Rotation_Min_Max_Speed","value":{"x":1.0,"y":1.0,"$type":"UnityEngine.Vector2"},"typeHandle":{"Identification":"UnityEngine.Vector2,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"v2_Rotation_Min_Max_Speed","value":{"x":1.0,"y":1.5,"$type":"UnityEngine.Vector2"},"typeHandle":{"Identification":"UnityEngine.Vector2,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"v2_Dash_Min_Max_CD","value":{"x":0.25,"y":0.5,"$type":"UnityEngine.Vector2"},"typeHandle":{"Identification":"UnityEngine.Vector2,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"m_Forward_Vector","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"SpriteRenderer","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"f_Dash_Boost_Multiplier","value":{"$content":6.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"f_Dash_Boost_Multiplier","value":{"$content":10.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 3218622965744802263}
@@ -338,7 +321,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7849277997838642615}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
